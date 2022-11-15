@@ -1,12 +1,10 @@
-# Fernando Henriques Neto
-# RA:18.00931-0
+#Pedro Henrique Sant Anna Hein
+# RA:20.00134-7
+
 import streamlit as st
 
 class UserController():
     def __init__(self):
-        # ctt = Contato(nome="a", email="a", telefone="(11)975327165", data_nascimento=dt.date(1995, 5, 3))
-        # user = Usuario(ctt, "a")
-        # self._lista_usuarios_cadastrados = [user]
         self._lista_usuarios_cadastrados = []
 
     def buscar_usuario_email(self, email_usuario):
